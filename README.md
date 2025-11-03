@@ -16,14 +16,13 @@ This project aims to develop a machine learning model for detecting Android botn
     * Model Training: Splitting data into training/testing sets, training selected models.
     * Evaluation: Assessing model performance using metrics like accuracy, precision, recall, and F1-score.
 
-## 4. (Future) Training Recipes & Results
-*(이 부분은 지금 당장 구체적인 코드를 돌리지 못했으므로, 향후 계획으로 작성해도 괜찮습니다.)*
+## 4. Training Recipes & Expected Results
 * **Planned Workflow:**
-    1. Load and preprocess `Botnet dataset.csv`.
-    2. Perform Exploratory Data Analysis (EDA) on features and target distribution.
-    3. Split data into training and test sets (e.g., 80% train, 20% test).
-    4. Train selected ML model (e.g., Random Forest Classifier) on the training data.
-    5. Evaluate the model on the test data and report performance metrics.
+    1.  Load and preprocess `Botnet_dataset.csv`.
+    2.  Perform Exploratory Data Analysis (EDA) on features and target distribution.
+    3.  Split data into training and test sets (e.g., 80% train, 20% test).
+    4.  Train selected ML model (e.g., Random Forest Classifier) on the training data.
+    5.  Evaluate the model on the test data and report performance metrics.
 * **Expected Output:** A trained model capable of classifying new Android apps with high accuracy.
 
 ## 5. Project Deliverables
